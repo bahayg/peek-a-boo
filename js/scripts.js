@@ -1,10 +1,11 @@
 $(document).ready(function(){
   $(".clickable").click(function(){
-    $("#walrus-showing").toggle();
-    $("#walrus-hidden").toggle();
+    $("#walrus-showing").fadeIn("slow");
+    $("#walrus-showing").fadeOut("slow");
   });
+
   $(".clickable2").click(function(){
-    $("#deer-showing").toggle();
-    $("#deer-hidden").toggle();
+    $("#deer-showing").slideDown("slow");
+    //$("#deer-hidden").slideDown();
   });
 });
