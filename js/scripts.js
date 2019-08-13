@@ -3,4 +3,8 @@ $(document).ready(function(){
     $("#walrus-showing").toggle();
     $("#walrus-hidden").toggle();
   });
+  $(".clickable2").click(function(){
+    $("#deer-showing").toggle();
+    $("#deer-hidden").toggle();
+  });
 });
