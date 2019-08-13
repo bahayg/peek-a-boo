@@ -6,6 +6,6 @@ $(document).ready(function(){
 
   $(".clickable2").click(function(){
     $("#deer-showing").slideDown("slow");
-    //$("#deer-hidden").slideDown();
+    $("#deer-showing").slideUp("slow");
   });
 });
