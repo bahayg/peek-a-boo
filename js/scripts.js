@@ -5,7 +5,7 @@ $(document).ready(function(){
   });
 
   $(".clickable2").click(function(){
-    $("#deer-showing").slideDown("slow");
-    $("#deer-showing").slideUp("slow");
+    $("#dog-showing").slideDown("slow");
+    $("#dog-showing").slideUp("slow");
   });
 });
